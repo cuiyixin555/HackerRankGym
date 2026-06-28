@@ -5,6 +5,9 @@
 #include <algorithm>
 using namespace std;
 
+// How to build: g++ -std=c++17 -Wall -o Day0_Hello_World Day0_Hello_World.cpp
+// How to run: ./Day0_Hello_World
+
 int main() {
     // Declare a variable named 'input_string' to hold our input.
     string input_string; 
