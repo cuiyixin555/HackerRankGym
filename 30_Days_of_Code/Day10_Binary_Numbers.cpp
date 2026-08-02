@@ -5,7 +5,9 @@ using namespace std;
 string ltrim(const string &);
 string rtrim(const string &);
 
-int main() {
+// How to build: g++ -std=c++17 -Wall -o Day10_Binary_Numbers 30_Days_of_Code/Day10_Binary_Numbers.cpp
+// How to run: ./Day10_Binary_Numbers
+int main(int argc, char* argv[]) {
   string n_temp;
   getline(cin, n_temp);
 
